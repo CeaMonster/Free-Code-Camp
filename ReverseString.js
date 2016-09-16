@@ -7,3 +7,10 @@ function reverseString(str) {
 }
 
 reverseString("hello");
+
+//Simple version
+function reverseString(str) {
+  return str.split("").reverse().join("");  
+}
+
+reverseString("hello");
